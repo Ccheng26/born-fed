@@ -57,7 +57,12 @@ header{
 .slide-text{
   margin: auto;
 }
+
 .carousel-cells{
   text-align: center;
+}
+
+.three-columns{
+    -webkit-column-count:4;
 }
 
