@@ -79,7 +79,9 @@ header{
 
 .column-content{
   background-color: rgb(237,237,237);
-
+  overflow: hidden;
+  margin-bottom: 3em;
+  padding: 1em;
 }
 
 h1{
