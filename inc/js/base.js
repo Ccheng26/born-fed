@@ -19,6 +19,7 @@
 			$(".carousel-prev").on("click",function(){
 				Carousel.previous();
 			});
+      $("body").keydown((e)=>{ if (e.keyCode == 37) {Carousel.previous()} else if (e.keyCode == 39) {Carousel.next()}})
 		},
 		next:function(){
 			//ADD NEXT CODE HERE
@@ -35,7 +36,7 @@
 			//ADD PREVIOUS CODE HERE
       this.props.current_slide-=1;
       $(`article:nth-child(${this.props.current_slide})`).addClass('prev').removeClass('off').removeClass('active')
-      setTimeout(()=>{$(`article:nth-child(${this.props.current_slide})`).removeClass('prev')},1000)
+      setTimeout(()=>{$(`article:nth-child(${this.props.current_slide})`).removeClass('prev')},500)
 		},
 		update:function(){
 			//ADD UPDATE CODE HERE
