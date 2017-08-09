@@ -26,7 +26,6 @@
       this.props.current_slide += 1;
       if(this.props.current_slide > this.props.total_slides){
           this.props.current_slide=1;
-
           $('article:nth-child(1)').removeClass('off').show().addClass('active').siblings().removeClass('off')
       } else{
           $(`article:nth-child(${this.props.current_slide})`).addClass('active').siblings().removeClass('active');
