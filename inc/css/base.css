@@ -60,10 +60,11 @@ header{
 
 .carousel-cells{
   text-align: center;
+  background-color: white;
 }
 
 .three-columns{
-    -webkit-column-count:4;
+  -webkit-column-count:4;
 }
 
 .list-block{
@@ -74,6 +75,11 @@ header{
   .three-columns{
       -webkit-column-count:3;
   }
+}
+
+.column-content{
+  background-color: rgb(237,237,237);
+
 }
 
 h1{
