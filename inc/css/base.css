@@ -10,8 +10,8 @@ header{
 	z-index:2;
 	box-sizing:border-box;
 }
-li{
-  list-style: none;
+nav > ul > li{
+  display: inline-block;
 }
 
 .page-content{
