@@ -22,12 +22,17 @@
 		},
 		next:function(){
 			//ADD NEXT CODE HERE
+
 		},
 		previous:function(){
 			//ADD PREVIOUS CODE HERE
 		},
 		update:function(){
 			//ADD UPDATE CODE HERE
+      if(this.props.total_slides===0){
+        this.props.total_slides=$('.slide-text').length
+        this.update();
+      }
 		}
 	}
 	$(function(){

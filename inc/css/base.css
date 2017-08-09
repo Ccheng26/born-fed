@@ -111,3 +111,30 @@ nav > ul > li{
   padding: 1em;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+}
+.active{
+  animation-duration: .5s;
+  animation-name: slidein;
+}
+@keyframes slideout {
+  to {
+    margin-left: -50%;
+  }
+}
+.off{
+  animation-duration: 10s;
+  animation-name: slideout;
+}
+@keyframes slideLeft {
+  from {
+    margin-left: -50%;
+  }
+}
+.prev{
+  animation-duration: .5s;
+  animation-name: slideLeft;
+}
