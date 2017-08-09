@@ -10,6 +10,9 @@ header{
 	z-index:2;
 	box-sizing:border-box;
 }
+li{
+  list-style: none;
+}
 
 .page-content{
 	padding-top:50px;
