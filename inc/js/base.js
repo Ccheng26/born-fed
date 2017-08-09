@@ -1,16 +1,16 @@
 "use strict";
 
 (function() {
-	
+
 	var Carousel = {
 		props:{
-			current_slide:null,
-			total_slides:null
+			current_slide:1,
+			total_slides:$('.slide-text').length
 		},
 		init:function(){
-
 			//ADD INITIALIZER CODE HERE
-
+      this.bindEvents();
+      this.update();
 		},
 		bindEvents:function(){
 			$(".carousel-next").on("click",function(){

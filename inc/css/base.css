@@ -14,13 +14,27 @@ header{
   justify-content: space-between;
   flex-direction: row-reverse;
 }
+h1{
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+h2{
+  font-size: 1.5em;
+  padding-left: .5em;
+}
+
+h3{
+  font-size: 1.17em;
+  margin-bottom: .83em;
+}
+li{
+  list-style-type: none;
+}
 nav > ul > li{
   display: inline-block;
   padding: .25em .5em;
   background-color: rgb(235,235,235);
-}
-li{
-  list-style-type: none;
 }
 
 .page-content{
@@ -97,17 +111,3 @@ li{
   padding: 1em;
 }
 
-h1{
-  font-size: 2em;
-  margin: .67em 0;
-}
-
-h2{
-  font-size: 1.5em;
-  padding-left: .5em;
-}
-
-h3{
-  font-size: 1.17em;
-  margin-bottom: .83em;
-}
